@@ -5,11 +5,17 @@ int main() {
     int n,p;
     cin>>n>>p;
 
-    p*=2;
-
     set<int> set1;
 
     while (p--) {
+        int a;
+        cin>>a;
+        set1.insert(a);
+    }
+
+    cin>>p;
+
+     while (p--) {
         int a;
         cin>>a;
         set1.insert(a);
